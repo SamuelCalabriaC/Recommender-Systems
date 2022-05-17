@@ -11,10 +11,8 @@ De estos análisis se obtendrán unos resultados a comparar con los que se sacar
 
 Estos son las referencias a los métodos originales:
 
-[DHCN](https://github.com/xiaxin1998/DHCN "Codes for AAAI 2021 paper 'Self-Supervised Hypergraph Convolutional Networks for Session-based Recommendation'.")
-
-[SR-GNN](https://github.com/CRIPAC-DIG/SR-GNN "Session-based Recommendation with Graph Neural Networks.")
-
-[LESSR]https://github.com/twchen/lessr "Handling Information Loss of Graph Neural Networks for Session-based Recommendation, Tianwen Chen and Raymong Chi-Wing Wong, KDD'20'.")
+Original repository : [DHCN](https://github.com/xiaxin1998/DHCN "Codes for AAAI 2021 paper 'Self-Supervised Hypergraph Convolutional Networks for Session-based Recommendation'.")
+Original repository : [SR-GNN](https://github.com/CRIPAC-DIG/SR-GNN "Session-based Recommendation with Graph Neural Networks.")
+Original repository : [LESSR](https://github.com/twchen/lessr "Handling Information Loss of Graph Neural Networks for Session-based Recommendation, Tianwen Chen and Raymong Chi-Wing Wong, KDD'20'.")
 
 
