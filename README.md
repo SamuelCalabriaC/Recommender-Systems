@@ -8,3 +8,13 @@ El objetivo principal de este trabajo es el estudio de los Sistemas Recomendador
 
 Además de hacer una revisión del estado actual, se analizarán y probarán cuatro algoritmos principales con diferentes conjuntos de datos.
 De estos análisis se obtendrán unos resultados a comparar con los que se sacarán conclusiones sobre el uso de estos sistemas, junto a las ventajas e inconvenientes de cada uno de ellos.
+
+Estos son las referencias a los métodos originales:
+
+[DHCN](https://github.com/xiaxin1998/DHCN "Codes for AAAI 2021 paper 'Self-Supervised Hypergraph Convolutional Networks for Session-based Recommendation'.")
+
+[SR-GNN](https://github.com/CRIPAC-DIG/SR-GNN "Session-based Recommendation with Graph Neural Networks.")
+
+[LESSR]https://github.com/twchen/lessr "Handling Information Loss of Graph Neural Networks for Session-based Recommendation, Tianwen Chen and Raymong Chi-Wing Wong, KDD'20'.")
+
+
