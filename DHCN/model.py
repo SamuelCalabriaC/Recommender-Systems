@@ -259,7 +259,12 @@ def train_test(model, train_data, test_data):
     model.eval()
     slices = test_data.generate_batch(model.batch_size)
     for i in slices:
-        tar, scores, con_loss = forward(model, i, test_data)
+        ## Llamada de Forward de DHCN, dentro del Forward de DHCN se llama a al forward de HyperG y LineG.
+        ## El forward de DHCN devuelve el sess_emb_hgnn devuelto a través del forward de HyperG.
+        ## El forward de DHCN devuelve el item_emb_hg devuelto a través del forward de LineG.
+        ## Ambos se utilizan para calcular el score general, a través de la siguiente línea en el forward general.
+        ## scores = torch.mm(sess_emb_hgnn, torch.transpose(item_emb_hg, 1,0))
+        tar, scores, con_loss = forward(model, i, test_data) 
         scores = trans_to_cpu(scores).detach().numpy()
         index = []
         for idd in range(model.batch_size):
